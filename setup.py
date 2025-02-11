@@ -10,5 +10,5 @@ setup(
     author='Junhao Song',
     author_email='sjh2015@mail.ustc.edu.cn',
     url='https://github.com/jhsong-seis/quakeflowplot',
-    python_requires=['matplotlib', 'pandas', 'numpy'],
+    python_requires=["matplotlib", "pandas", "numpy"],
 )
