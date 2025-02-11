@@ -1,6 +1,6 @@
 # setup.py
 
-from setuptools import setup, find_packages
+from setuptools import setup
 
 setup(
     name='quakeflowplot',
@@ -10,10 +10,5 @@ setup(
     author='Junhao Song',
     author_email='sjh2015@mail.ustc.edu.cn',
     url='https://github.com/jhsong-seis/quakeflowplot',
-    classifiers=[
-        'Programming Language :: Python :: 3',
-        'License :: OSI Approved :: MIT License',
-        'Operating System :: OS Independent',
-    ],
-    python_requires='>=3.6',
+    python_requires=['matplotlib', 'pandas', 'numpy'],
 )
